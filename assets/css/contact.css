@@ -21,7 +21,7 @@ header {
 }
 #title {
     position: relative;
-    width: 960px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;   
 }
@@ -61,7 +61,7 @@ h2 {
 
 #box {
     box-sizing: border-box;
-    width: 960px;
+    width: 70%;
     height: 67%;
     background: #ffffff;
     padding: 20px;
@@ -117,4 +117,39 @@ footer {
     width: 100%;
     padding-top: 5%;
     border-top: #4aaaa5 6px solid;
+}
+
+@media only screen and (max-width: 768px){
+    #submit {
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #message {
+        height: 100px;
+    }
+
+    #box {
+        height: 45%;
+        margin-bottom: 50px;
+        padding-bottom: 0;
+        margin-top: 10px;
+    }
+
+    p {
+        height: 45%;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+  
+    #submit {
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #message {
+        height: 100px;
+    }
 }

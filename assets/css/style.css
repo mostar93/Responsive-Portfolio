@@ -84,9 +84,8 @@ p {
     padding: 0;
 }
 
-p::first-letter {
-    font-size: 30px;
-}
+
+
 hr {
     line-height: 5px;
     color: aliceblue;
@@ -103,4 +102,42 @@ footer {
     width: 100%;
     padding-top: 5%;
     border-top: #4aaaa5 6px solid;
+    position: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        padding: 15px;
+        margin: auto;
+    }
+    
+    #title {
+        float: none;
+        
+    }
+
+    #links {
+        float: none;
+        position: relative;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #box {
+        height: 45%;
+        margin-bottom: 50px;
+        padding-bottom: 0;
+    }
+
+    #aboutme {
+        height: 150px;
+        width: 150px;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }
